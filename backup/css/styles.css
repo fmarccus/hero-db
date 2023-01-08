@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+
+body {
+  font-family: "Marcellus", serif;
+}
+
+#title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.continue-btn {
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  background-color: black;
+  color: #414b62;
+}
+.pagination > li.active > a,
+.pagination > li.active > span {
+  background-color: rgb(241, 241, 241);
+  border-color: rgb(179, 179, 179);
+  color: #414b62;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 10vh;
+  object-fit: contain;
+}
+
+tbody .bg-table {
+  background-color: #ffffff;
+}

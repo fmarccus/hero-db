@@ -1,0 +1,20 @@
+@charset "utf-8";
+$dark: hsl(0, 0%, 21%);
+$light: hsl(0, 0%, 96%);
+$primary: hsl(217, 71%, 53%);
+
+
+$body-background-color:$dark;
+$navbar-background-color: $dark;
+$navbar-item-color: $light;
+$navbar-item-hover-color: $light;
+$navbar-item-hover-background-color: $primary;
+
+$pagination-color: $light;
+$pagination-border-color: $primary;
+$pagination-hover-color: $primary;
+
+
+
+@import "../bulma-0.9.4/bulma/bulma.sass";
+

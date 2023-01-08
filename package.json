@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "sass": "^1.57.1"
+  },
+  "scripts": {
+    "node-sass": "sass --watch --no-source-map sass/mystyles.scss:css/mystyles.css"
+  }
+}
